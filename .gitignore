@@ -1,0 +1,18 @@
+# Virtual environment
+backend/venv/
+backend/.env
+backend/data/*.json
+!backend/data/.gitkeep
+
+# Node & Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local
+frontend/out/
+
+# OS and logs
+*.log
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
