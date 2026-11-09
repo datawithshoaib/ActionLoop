@@ -247,8 +247,10 @@ def extract_from_transcript(transcript: str) -> MeetingExtraction:
 - [ ] v2: Persist history with SQLite/PostgreSQL
 - [ ] v3: Slack/email integration to auto-send follow-up
 
----
+## Future improvements
 
-## License
+- Whisper transcription
+- speaker-aware chunking
+- RAG over meeting history
+- structured extraction of tasks with owners and deadlines
 
-MIT
